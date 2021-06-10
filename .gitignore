@@ -1,3 +1,2 @@
-#ignore datasets
-data/pre-training/
-
+#ignore pycache folders
+__pycache__/
