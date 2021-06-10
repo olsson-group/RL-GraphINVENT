@@ -54,7 +54,7 @@ The implementation of GraphINVENT adapted for this work was pulled from the Mole
 
 https://github.com/MolecularAI/GraphINVENT
 
-This work is explained in [publication](https://doi.org/10.1088/2632-2153/abcf91).
+This work is explained in [this publication](https://doi.org/10.1088/2632-2153/abcf91).
 
 
 ### Data
