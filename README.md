@@ -1,6 +1,6 @@
 # RL-GraphINVENT
 
-![cover image](./cover-pic.png)
+![cover image](./cover-pic.png | width=250)
 
 ## Description
 RL-GraphINVENT is a platform for graph-based targeted molecular generation using graph neural networks and reinforcement learning. RL-GraphINVENT uses a Gated Graph Neural Network -based model fine-tuned using reinforcement learning to probabilistically generate new molecules with desired property profiles.
@@ -27,7 +27,7 @@ There are 6 different kinds of jobs for the pre-training phase:
 * "multiple_valid": for reevaluating the model at different training epochs.
 * "valid_loss": for computing the validation loss of the model at different epochs.
 
-You can run for instance a training job by setting the job type to `train' and selecting the appropiate hyperparameter values in [sumbmitPT.py](./submitPT.py):
+You can run for instance a training job by setting the job type to `train' and selecting the appropiate hyperparameter values in [submitPT.py](./submitPT.py):
 ```
 submitPT.py >
 # define what you want to do for the specified job(s)
@@ -81,7 +81,7 @@ There are 2 different kinds of jobs for the fine-tuning phase:
 
 The scoring functions are defined in [scores.py](./fine-tuning/scores.py).
 
-You can run for instance a learning job by setting the job type to `learn' and selecting the appropiate hyperparameter values in [sumbmitFT.py](./submitFT.py):
+You can run for instance a learning job by setting the job type to `learn' and selecting the appropiate hyperparameter values in [submitFT.py](./submitFT.py):
 ```
 submitFT.py >
 # define what you want to do for the specified job(s)
