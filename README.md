@@ -1,7 +1,7 @@
 # RL-GraphINVENT
 
 
-<img src="./cover-pic.png"  width=250>
+<img src="./cover-pic.png"  width=500>
 
 ## Description
 RL-GraphINVENT is a platform for graph-based targeted molecular generation using graph neural networks and reinforcement learning. RL-GraphINVENT uses a Gated Graph Neural Network -based model fine-tuned using reinforcement learning to probabilistically generate new molecules with desired property profiles.
