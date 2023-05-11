@@ -104,7 +104,7 @@ dependencies:
   - python=3.6.8=h0371630_0
   - python-dateutil=2.8.1=py_0
   - python_abi=3.6=1_cp36m
-  - pytorch=1.3.1=py3.6_cuda10.0.130_cudnn7.6.3_0
+  - pytorch=1.3.1=cuda100py36h53c1284_0
   - pytz=2019.3=py_0
   - pyzmq=19.0.2=py36he6710b0_1
   - qt=5.9.7=h5867ecd_1
@@ -122,7 +122,7 @@ dependencies:
   - tensorboard=2.1.0=py3_0
   - threadpoolctl=2.1.0=pyh5ca1d4c_0
   - tk=8.6.8=hbc83047_0
-  - torchvision=0.4.2=py36_cu100
+  - torchvision=0.4.2=cuda100py36hecfc37a_0
   - tornado=6.0.3=py36h7b6447c_0
   - tqdm=4.42.0=py_0
   - traitlets=4.3.3=py36_0
@@ -135,10 +135,10 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.3.7=h0b5b093_0
   - pip:
-    - fcd-torch==1.0.7
-    - molsets==0.3.1
-    - networkx==2.5.1
-    - pomegranate==0.12.0
-    - pyyaml==5.4.1
-    - seaborn==0.11.1
+      - fcd-torch==1.0.7
+      - molsets==0.3.1
+      - networkx==2.5.1
+      - pomegranate==0.12.0
+      - pyyaml==5.4.1
+      - seaborn==0.11.1
 
